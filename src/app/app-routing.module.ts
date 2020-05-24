@@ -3,7 +3,8 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 //adding route to the tabs page
 const routes: Routes = [
-  { path: '', loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)}
+  { path: '', loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)},
+
 ];
 //here finishes de code
 @NgModule({
